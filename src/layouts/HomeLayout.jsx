@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 import NavBar from "../components/NavBar";
 
-function SharedLayout() {
+function HomeLayout() {
   return (
     <>
       <NavBar />
@@ -11,4 +11,4 @@ function SharedLayout() {
   );
 }
 
-export default SharedLayout;
+export default HomeLayout;
